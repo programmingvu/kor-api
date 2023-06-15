@@ -16,6 +16,8 @@ return [
     */
 
     'name' => env('APP_NAME', 'Laravel'),
+    
+    'apiversion' => env('API_VERSION', 'v1'),
 
     /*
     |--------------------------------------------------------------------------
@@ -194,6 +196,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        App\Providers\FortifyServiceProvider::class,
 
     ],
 
